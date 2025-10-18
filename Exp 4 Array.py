@@ -1,0 +1,12 @@
+import numpy as np
+array=np.array([10,20,30,40,50])
+print("Original Array is:",array)
+a=int(input("Enter the element to bee appended:"))
+array=np.append(array,a)
+print(f"Array after appending {a} is:",array)
+array=np.append(array,[70,80,90])
+print("Array after apprnding [70,80,90]:",array)
+array=np.delete(array,2)
+print("Array after deleting element at index 2 is:",array)
+array=np.delete(array,[0,1])
+print("Array after removing elements at indices 0 and 1 is:",array)
