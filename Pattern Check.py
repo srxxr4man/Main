@@ -1,3 +1,8 @@
+print("WELCOME TO PYTHON PROGRAMMING LANGUAGE")
+print()
+print("TO FIND INDEX OF A GIVEN PATTERN")
+print()
+
 def check_pattern(text, pattern):
     n = len(text)
     m = len(pattern)
