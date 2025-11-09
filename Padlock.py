@@ -1,3 +1,8 @@
+print("WELCOME TO PYTHON PROGRAMMING LANGUAGE")
+print()
+print("TO FIND PADLOCK WITH A GIVEN KEY ( 3 DIGIT COMBINATION )")
+print()
+
 def padlock(key):
     for i in range(1000):
         guess=f"{i:03}"
