@@ -1,3 +1,8 @@
+print("WELCOME TO PYTHON PROGRAMMING LANGUAGE")
+print()
+print("TO FIND THE TAGET SUM USING SUM OF SUBSET")
+print()
+
 import itertools
 
 def sub(num, target):
